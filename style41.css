@@ -1,0 +1,52 @@
+style4.css
+body {
+  font-family: "lucidafax",Arial ,sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #0078d7;
+  color: darkblue;
+  padding: 20px 0;
+}
+
+main {
+  padding: 30px;
+}
+
+button {
+  background-color: #0078d7;
+  color: darkblue;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#appreciationMessage {
+  font-style: italic;
+  margin-top: 5px;
+  color: #fff8dc;
+}
+.dark-mode {
+  background-color: #0d1b2a; 
+  color: #e0e0e0; 
+}
+
+.dark-mode header {
+  background-color: #111;
+}
+
+.dark-mode button {
+  background-color: #555;
+  color: #fff;
+}
